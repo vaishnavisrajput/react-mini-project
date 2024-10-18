@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(113, 112, 112);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  flex-direction: column;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  font-size: 20px;
+}
+
+.form input{
+  padding: 19px 15px;
+  width: 450px;
+  margin-top: 20px;
+  background-color: white;
+  outline: 0;
+  border: 0;
+  border-radius: 15px;
+}
+.btn{
+  padding: 10px 15px;
+  margin-top: 30px;
+  background-color: white;
+  padding: 16px 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 15px;
+}
+.to-do-items{
+  margin: 20px;
+}
+.to-do-items li{
+  background-color: white;
+  padding: 13px 10px;
+  width: 750px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.dlt-btn{
+  float: right;
+  padding: 5px 10px;
+  outline: 0;
+  border: 2px solid;
+  border-radius: 10px;
+}
